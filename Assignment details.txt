@@ -1,0 +1,11 @@
+Information about your personal site that might be helpful to know as you start the site plan.
+By the end of this course:
+
+ The personal site must consist of a home page and at least two child pages.
+The website must be hosted on the web.
+ Each page of your Web site must satisfy the following requirements:
+ Significant textual content consisting of appropriate content for your audience so that they can understand the meaning and message of this site.
+ At least one image that relates to the content of the page.
+Working links to your two child pages.
+Be laid out and styled according to your site plan wireframes.
+Be visually appealing and easily readable.
