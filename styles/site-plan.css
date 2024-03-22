@@ -27,22 +27,30 @@ Fonts are separated by a | */
 }
 
 
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+}
 
-.image1container {
-  width: 100%;
-  height: 100vh; /* Set container height to full viewport height */
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .logo {
-  max-width: 100%; /* Ensure image does not exceed container width */
-  max-height: 100%; /* Ensure image does not exceed container height */
-  width: auto;
-  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  }
 
 
 .middlepicture {
@@ -54,11 +62,14 @@ Fonts are separated by a | */
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
 body {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 4em;
   font-size: 18px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
 }
 img {
   display: block;
@@ -77,7 +88,7 @@ hr {
   background: var(--accent1-color);
 }
 header {
-  padding: 1em;
+  /* padding: 1em; */
   text-align: center;
   color: var(--headline-color-on-color);
   background-color: var(--paragraph-background-color);
@@ -125,13 +136,13 @@ p.colored {
 
 nav {
   background-color: var(--nav-background-color);
-  line-height: 3em;
+  line-height: 4em;
   text-align: center;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 nav  {
   list-style-type: none;
-  display: flex;
+  /* display: flex; */
 
 }
 nav a {
@@ -200,4 +211,56 @@ nav a:hover {
 
 .page1 {
   width: 50%;
+}
+
+
+.newcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.image-text-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.middlepicture {
+  max-width: 200px; /* Adjust as needed */
+  margin-right: 20px;
+}
+
+.text-content {
+  flex: 1;
+}
+
+header, footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-text-container {
+  /* display: flex; */
+  /* align-items: center; */
+  /* margin-top: 20px; */
+  max-width: 1200px; /* Adjust as needed */
+  /* text-align: center; */
+}
+
+.middlepicture {
+  max-width: 50%; /* Adjust as needed */
+  margin: 300px;
 }
