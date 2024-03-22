@@ -28,8 +28,26 @@ Fonts are separated by a | */
 
 
 
+.image1container {
+  width: 100%;
+  height: 100vh; /* Set container height to full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  max-width: 100%; /* Ensure image does not exceed container width */
+  max-height: 100%; /* Ensure image does not exceed container height */
+  width: auto;
+  height: auto;
+}
 
 
+
+.middlepicture {
+  width: 40%;
+}
 
 
 
