@@ -21,7 +21,7 @@ Fonts are separated by a | */
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
   --nav-link-color: #396E94;
-  --nav-background-color: #D4AC0D;
+  --nav-background-color: #9E0031;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }
@@ -70,6 +70,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   margin: 0;
+  background-color: #600047;
 }
 img {
   display: block;
