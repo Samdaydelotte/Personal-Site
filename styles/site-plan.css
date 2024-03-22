@@ -135,6 +135,7 @@ p.colored {
   color: var(--paragraph-color-on-color);
 }
 
+/* fix */
 nav {
   background-color: var(--nav-background-color);
   line-height: 4em;
