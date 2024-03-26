@@ -17,10 +17,10 @@ Fonts are separated by a | */
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: #396E94;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #396E94; /* paragraph text on a white background */ 
+  --paragraph-color-on-white: white; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
   --paragraph-background-color: #396E94  ;
-  --nav-link-color: #396E94;
+  --nav-link-color: white;
   --nav-background-color: #9E0031;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
@@ -44,20 +44,13 @@ Fonts are separated by a | */
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
+  width: 50%;
 }
 
 * {
   margin: 0;
   padding: 0;
-  }
-
-
-.middlepicture {
-  width: 40%;
 }
-
-
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
 
@@ -141,6 +134,7 @@ nav {
   line-height: 4em;
   text-align: center;
   font-size: 1.5em;
+  
 }
 nav  {
   list-style-type: none;
@@ -228,11 +222,7 @@ nav a:hover {
   display: flex;
   align-items: center;
   margin-top: 20px;
-}
-
-.middlepicture {
-  max-width: 200px; /* Adjust as needed */
-  margin-right: 20px;
+  font-size: 30px
 }
 
 .text-content {
@@ -254,15 +244,19 @@ main {
   justify-content: center;
 }
 
-.image-text-container {
-  /* display: flex; */
-  /* align-items: center; */
-  /* margin-top: 20px; */
-  max-width: 1200px; /* Adjust as needed */
-  /* text-align: center; */
+.middlepicture {
+  /* width: 100%; Adjust as needed */
+  width: 600px;
+  height: 400px;
 }
 
-.middlepicture {
-  max-width: 50%; /* Adjust as needed */
-  margin: 300px;
+.social {
+  display: flex; /* Use flexbox for social icons */
+  gap: 10px; /* Adjust the gap between icons as needed */
+  justify-content: center;
+}
+
+.social a {
+  display: flex; /* Ensure each social icon is a flex item */
+  align-items: center; /* Align icon vertically in the center */
 }
