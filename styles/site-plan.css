@@ -15,7 +15,7 @@ Fonts are separated by a | */
   --paragraph-font: Lato, Helvetica, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #396E94;  /* headlines on a white background */ 
+  --headline-color-on-white: white;  /* headlines on a white background */ 
   --headline-color-on-color: white; /* headlines on a colored background */ 
   --paragraph-color-on-white: white; /* paragraph text on a white background */ 
   --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
@@ -24,13 +24,6 @@ Fonts are separated by a | */
   --nav-background-color: #9E0031;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
-}
-
-
-.container {
-  position: relative;
-  text-align: center;
-  color: black;
 }
 
 .centered {
@@ -135,10 +128,12 @@ nav {
   text-align: center;
   font-size: 1.5em;
   
+  
 }
 nav  {
   list-style-type: none;
   /* display: flex; */
+  
 
 }
 nav a {
@@ -146,6 +141,7 @@ nav a {
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  
 
 }
 nav a:link, nav a:visited {
@@ -260,3 +256,48 @@ main {
   display: flex; /* Ensure each social icon is a flex item */
   align-items: center; /* Align icon vertically in the center */
 }
+
+#inlogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+}
+
+.toptitle {
+  font-size: 60px
+}
+
+.page2text {
+  font-size: 30px;
+  color: white;
+}
+
+.page2images {
+  width: 100%; /* Set the width of the container */
+  text-align: center; /* Center the images horizontally */
+}
+
+/* CSS styles for the images inside page2images */
+.page2images img {
+  display: inline-block; /* Display images as inline-block */
+  max-width: 40%; /* Set the maximum width of the images */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 10px; /* Add margin for spacing between images */
+}
+
+.container {
+  max-width: 1200px; /* Set the maximum width for the container */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 0 20px; /* Add padding to the sides of the container */
+}
+
+hr {
+  /* border: none; Remove default border */
+  height: 2px; /* Set the height of the line */
+  background-color: white; /* Set the background color of the line */
+  margin: 20px 0; /* Add some margin above and below the line */
+  width: 100%;
+}
+
+
